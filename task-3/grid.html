@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Lightbox</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/61muVCIy-uL._SX679_.jpg" alt="Nature 1" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/61muVCIy-uL._SX679_.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/41iCDvvHU5L._SY300_SX300_.jpg" alt="Nature 2" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/41iCDvvHU5L._SY300_SX300_.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/41R3ufWRt8L._SX300_SY300_QL70_FMwebp_.jpg" alt="Nature 3" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/41R3ufWRt8L._SX300_SY300_QL70_FMwebp_.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/41yHj1h1+gL._SY300_SX300_.jpg" alt="Nature 4" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/41yHj1h1+gL._SY300_SX300_.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/41L7df2MoBL._SX300_SY300_QL70_FMwebp_.jpg" alt="Nature 5" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/41L7df2MoBL._SX300_SY300_QL70_FMwebp_.jpg">
+        </div>
+        <div class="gallery-item">
+            <img src="https://m.media-amazon.com/images/I/41q42maJzVL._SX300_SY300_QL70_FMwebp_.jpg" alt="Nature 6" class="thumbnail" data-fullsize="https://m.media-amazon.com/images/I/41q42maJzVL._SX300_SY300_QL70_FMwebp_.jpg">
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn">X</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="grid.js"></script>
+</body>
+</html>
