@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "question": "Which data structure uses LIFO (Last In, First Out) ordering?",
+      "options": ["Queue", "Stack", "Heap", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "id": 2,
+      "question": "What is the time complexity of quicksort in the average case?",
+      "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)"],
+      "answer": "O(n log n)"
+    },
+    {
+      "id": 3,
+      "question": "Which HTTP method is used to update a resource?",
+      "options": ["GET", "POST", "PUT", "DELETE"],
+      "answer": "PUT"
+    },
+    {
+      "id": 4,
+      "question": "What is the primary purpose of Docker?",
+      "options": [
+        "Virtualizing operating systems",
+        "Creating lightweight containers for applications",
+        "Managing large databases",
+        "Providing an alternative to Git"
+      ],
+      "answer": "Creating lightweight containers for applications"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      "answer": "MongoDB"
+    },
+    {
+      "id": 6,
+      "question": "Which JavaScript framework is developed by Facebook?",
+      "options": ["Angular", "Vue.js", "React", "Svelte"],
+      "answer": "React"
+    },
+    {
+      "id": 7,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Code Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": 8,
+      "question": "Which protocol is used to secure communication over the internet?",
+      "options": ["HTTP", "FTP", "SSH", "HTTPS"],
+      "answer": "HTTPS"
+    },
+    {
+      "id": 9,
+      "question": "Which programming language is primarily used for iOS development?",
+      "options": ["Swift", "Kotlin", "Java", "C#"],
+      "answer": "Swift"
+    },
+    {
+      "id": 10,
+      "question": "What is the default port number for MySQL?",
+      "options": ["1433", "3306", "5432", "1521"],
+      "answer": "3306"
+    }
+  ]
+  
