@@ -1,0 +1,26 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(222, 222, 222);
+    padding: 20px;
+}
+
+.img-container{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.img-container p{
+    text-align: center;
+}
+
+.img-container img{
+    width: 215px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
