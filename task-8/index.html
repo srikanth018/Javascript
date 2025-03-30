@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 8</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h2>Web Development Courses</h2>
+        <nav class="mobile-nav">
+            <a href="#course-list">Courses</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+    <aside>
+        <ul>
+            <li><a href="#course-list">Course List</a></li>
+            <li><a href="#register">Register Course</a></li>
+        </ul>
+    </aside>
+    <main>
+ 
+        <section id="course-list" class="page">
+            <h1>Available Courses</h1>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card_border">
+                        <div class="card__header">
+                            <img src="https://imgs.search.brave.com/p9PdpM0Br1u8xwB47dU6RS_XJdxC4qtmBRb3ouKVpxk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jbXMt/YXNzZXRzLnR1dHNw/bHVzLmNvbS9jZG4t/Y2dpL2ltYWdlL3dp/ZHRoPTQwMC91cGxv/YWRzL3VzZXJzLzMw/L3Bvc3RzLzkzMTk5/L3ByZXZpZXdfaW1h/Z2UvaHRtbF9jc3Nf/cHJlLnBuZw" 
+                            alt="HTML/CSS image" class="card__image">
+                        </div>
+                        <div class="card__body">
+                            <h2 class="card__title">HTML & CSS</h2>
+                            <p class="card__description">
+                                Learn the fundamentals of web development with HTML and CSS.
+                            </p>
+                        </div>
+                        <div class="card__footer">
+                            <a href="#view-course" class="card__button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="page">
+            <h1>Register for a Course</h1>
+            <form class="registration-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select id="course" required>
+                        <option value="">-- Choose a course --</option>
+                        <option value="html-css">HTML & CSS</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="react">React</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </section>
+
+        <section id="view-course" class="page">
+            <div class="viewCourse">
+                <h2>How to Create a Website using HTML and CSS</h2>
+                <p>Every developer on their journey to be a master web developer learns HTML in the first place. After being handy with HTML, one proceeds to the next step of learning, which is CSS.</p>
+
+                <div class="para">
+                    <p>Before starting our HTML and CSS website project, first let's set the necessary folder and file structure according to how you are going to code the entire project.</p>
+                    <img
+                        src="https://browserstack.wpenginepowered.com/wp-content/uploads/2023/03/components-of-html-640x905.jpg"
+                        alt="HTML/CSS image"
+                    />
+                </div>
+                <a href="#course-list" class="back-btn">← Back to Courses</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
